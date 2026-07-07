@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color:aliceblue;
+
+}
+
+html,body{
+  height: 100%;
+  width:100%,
+
+}
+
+body{
+  background-color: #111;
+}
+
+
+.Parent button{
+  background-color: aquamarine;
+  border-radius: 5px;
+  color: #111;
+  margin: 10px;
+  padding:5px
+}
+
+.Parent input{
+  color:#111;
+  margin: 10px;
+  padding:5px
+}
