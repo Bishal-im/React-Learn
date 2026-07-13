@@ -67,11 +67,9 @@ const App = () => {
                   className="bg-zinc-900 rounded-xl p-5 shadow-md border border-zinc-800 hover:border-amber-500 transition flex flex-col justify-between h-60"
                 >
                   <div>
-                    <h3 className="text-xl font-bold break-words">
-                      {elem.title}
-                    </h3>
+                    <h3 className="text-xl font-bold">{elem.title}</h3>
 
-                    <p className="mt-3 text-zinc-400 break-words overflow-auto h-28">
+                    <p className="mt-3 text-zinc-400 overflow-auto h-28">
                       {elem.details}
                     </p>
                   </div>
