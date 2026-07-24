@@ -39,7 +39,7 @@ const App = () => {
   //
   //
   return (
-    <div clas  sName="bg-black overflow-auto h-screen p-4 text-white ">
+    <div className="bg-black overflow-auto h-screen p-4 text-white ">
       {/* mathi var ma image halexam hamle  */}
       <div className="flex flex-wrap gap-4 p-2">{printUserData}</div>
 
